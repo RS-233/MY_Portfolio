@@ -505,15 +505,13 @@ p {
 	margin-bottom: 10px;
 }
 #footer .social-icon {
-	height: 70px;
-        width: 250px;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
 #footer .social-item {
 	height: 50px;
-	width: 50px;
+	width: 67px;
 	margin: 0 5px;
 }
 #footer .social-item:nth-child(1) img {
