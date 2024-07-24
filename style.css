@@ -289,8 +289,8 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
 	background-size: cover;
+	height: 450px;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
