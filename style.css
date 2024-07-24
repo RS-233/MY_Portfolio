@@ -501,7 +501,10 @@ p {
 	margin-bottom: 10px;
 }
 #footer .social-icon {
+	height: 70px;
+        width: 250px;
 	display: flex;
+	justify-content: space-between;
 	margin-bottom: 30px;
 }
 #footer .social-item {
@@ -509,7 +512,20 @@ p {
 	width: 50px;
 	margin: 0 5px;
 }
-#footer .social-item img {
+#footer .social-item:nth-child(1) img {
+	height: 70px;
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:nth-child(2) img {
+	height: 55px;
+	margin-top: 8px;
+	width: 55px;
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:nth-child(3) img {
+	height: 70px;
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
 }
