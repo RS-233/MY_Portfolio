@@ -15,7 +15,6 @@ document.addEventListener('scroll', () => {
 		
 	} else {
 		header.style.backgroundColor = 'transparent';
-		link.style.color="white";
 	}
 });
 
